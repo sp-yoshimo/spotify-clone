@@ -42,7 +42,7 @@ const MediaItem: React.FC<MediaItemProps> = ({
             </div>
 
             <div className="flex flex-col gap-y-1 overflow-hidden">
-                <p className="text-white truncate">
+                <p className="text-white truncate max-w-[100px] sm:max-w-[150px] md:max-w-[200px] lg:max-w-[300px]">
                     {data.title}
                 </p>
                 <p className=" text-neutral-400 text-sm truncate">
